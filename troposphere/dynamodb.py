@@ -96,4 +96,5 @@ class Table(AWSObject):
         'ProvisionedThroughput': (ProvisionedThroughput, True),
         'StreamSpecification': (StreamSpecification, False),
         'TableName': (basestring, False),
+        'Tags': (list, False),
     }
